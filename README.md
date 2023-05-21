@@ -97,7 +97,7 @@ Destacamos também o caso do RandomForestClassifier com PCA e Oversampling, que 
 
 Conforme abordado pela discussão de resultados, o modelo que obteve a melhor performance foi modelo que utilizou o modelo de machine learning Random Forest, associado às técnicas de RFECV para redução de dimensionalidade e Classweight para balanceamento do conjunto de dados. 
 
-Por fim, como sugestão para estudos futuros, sugerimos uma busca de hiperparâmetros para otimizar o desempenho do modelo. Técnicas como GridSearchCV ou RandomizedSearchCV da biblioteca scikit-learn permitiriam. Além disso, há a possibilidade de utilização de modelos não supervisionados como autoencoders e oneclass que mitigariam os problemas relacionados ao balanceamento da base. 
+Por fim, para continuar esse estudo, sugerimos uma busca de hiperparâmetros para otimizar o desempenho do modelo fazendo uso das técnicas GridSearch ou RandomizedSearchCV da biblioteca scikit-learn. Há, também, a possibilidade de utilização de modelos não supervisionados como autoencoders e oneclass que mitigariam os problemas relacionados ao balanceamento da classe.
 
 ---
 
